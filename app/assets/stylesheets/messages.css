@@ -16,6 +16,9 @@
 .side-header{
   height: 100px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .side-main{
@@ -41,4 +44,27 @@
   width: 100%;
   background-color: #DDDDDD;
   padding: 20px 0;
+}
+
+.user-name a {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.make-chat a{
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.room{
+  padding: 20px 0 40px 0;
+}
+
+.room a{
+  color: white;
+  text-decoration: none;
 }
