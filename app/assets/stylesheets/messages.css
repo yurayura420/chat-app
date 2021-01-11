@@ -64,7 +64,7 @@
   text-decoration: none;
 }
 
-.room{
+.rooms{
   padding: 20px 0 40px 0;
 }
 
@@ -153,4 +153,8 @@
 
 .hidden {
   display: none;
+}
+
+.room-name a{
+  color: white;
 }
