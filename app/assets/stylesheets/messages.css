@@ -35,7 +35,7 @@
 }
 
 .messages{
-  height: calc(100% - 190px);
+  height: calc(100vh - 190px);
   width: 100%;
   padding-top: 46px;
   background-color: #FAFAFA;
@@ -158,4 +158,8 @@
 
 .room-name-sub a{
   color: white;
+}
+
+.lower-message {
+  margin-top: 10px;
 }
